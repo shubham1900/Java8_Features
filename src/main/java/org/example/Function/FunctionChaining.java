@@ -11,6 +11,9 @@ public class FunctionChaining {
 
         System.out.println("First Doubling using apply " + doubleIt.andThen(cubeMe).apply(2));
         System.out.println("First cubing using compose " + doubleIt.compose(cubeMe).apply(2));
+        System.out.println("First cubing using compose -- for commit  ");
+
+
 
     }
 
